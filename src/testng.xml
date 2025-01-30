@@ -1,0 +1,13 @@
+<suite name="Final Project">
+
+    <listeners>
+        <listener class-name="org.example.utils.TestListener"/>
+    </listeners>
+
+    <test name="Login Module">
+        <classes>
+            <class name="org.example.tests.AddItemToCartTest"/>
+            <class name="org.example.tests.LoginErrorMessageTest"/>
+        </classes>
+    </test>
+</suite>
